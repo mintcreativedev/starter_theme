@@ -18,5 +18,6 @@ jobs:
         with:
           target-server: 185.220.60.248
           remote-user: root
+          ssh-port: 2020
           private-ssh-key: ${{ secrets.SSH_KEY }}
           destination-path: /var/www/vhosts/mintcreative.com/staging.mintcreative.com/sandbox/wp-content/themes/boilerplate

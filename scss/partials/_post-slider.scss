@@ -1,0 +1,35 @@
+.post-slider {
+  width: 100%;
+  max-width: 1360px;
+
+  .post__grid {
+    display: flex;
+    gap: 20px;
+  }
+
+  .post {
+    margin-right: 20px;
+    max-width: 506px;
+  }
+
+  .post__img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  .post__title{
+    font-size: 32px;
+    font-style: normal;
+    margin:0 0 10px;
+  }
+
+  .post__excerpt{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 0;
+  }
+  
+}

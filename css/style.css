@@ -9,5 +9,4 @@
  License: GNU General Public License v2 or later
  License URI: http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain: boilerplate
-*/body{background-color:greenyellow}
-/*# sourceMappingURL=style.css.map */
+*/.post-slider{width:100%;max-width:1360px}.post-slider .post__grid{display:flex;gap:20px}.post-slider .post{margin-right:20px;max-width:506px}.post-slider .post__img{width:100%;height:auto;border-radius:20px;margin-bottom:20px}.post-slider .post__title{font-size:32px;font-style:normal;margin:0 0 10px}.post-slider .post__excerpt{color:rgba(0,0,0,.6);font-size:24px;line-height:1.2;margin:0}.block-empty{padding:40px;border:2px dashed #f2f2f2}/*# sourceMappingURL=style.css.map */

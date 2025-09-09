@@ -17,6 +17,10 @@
 // @import "footer";
 
 /* Your global styles can go here */
-body {
-    background-color: greenyellow;
+@use 'partials/post-slider';
+
+
+.block-empty{
+    padding:40px;
+    border: 2px dashed #f2f2f2;
 }

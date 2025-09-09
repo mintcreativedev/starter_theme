@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA;;;;;;;;;;;EAWE,AAQF,IAAK,CACD,gBAAgB,CAAE,WAAW",
-"sources": ["../scss/style.scss"],
-"names": [],
-"file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/style.scss","../scss/partials/_post-slider.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,eCCE,WACA,iBAEA,yBACE,aACA,SAGF,mBACE,kBACA,gBAGF,wBACE,WACA,YACA,mBACA,mBAGF,0BACE,eACA,kBACA,gBAGF,4BACE,qBACA,eACA,gBACA,SDTJ,aACI,aACA","file":"style.css"}

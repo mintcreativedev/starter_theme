@@ -247,9 +247,9 @@
             "min": "30px",
             "max": "36px"
           },
-          "name": "36px",
-          "size": "36px",
-          "slug": "max-36"
+          "name": "36magix",
+          "size": "12px",
+          "slug": "magix-36"
         },
         {
           "fluid": {

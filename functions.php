@@ -29,7 +29,7 @@ if (! function_exists('frost_setup')) {
 		load_theme_textdomain('frost', get_template_directory() . '/languages');
 
 		// Enqueue editor stylesheet.
-		add_editor_style(get_template_directory_uri() . '/style.css');
+		add_editor_style(get_template_directory_uri() . '/css/style.css');
 
 		// Remove core block patterns.
 		remove_theme_support('core-block-patterns');
@@ -142,23 +142,23 @@ add_action('acf/init', 'my_acf_blocks_init');
  * Register Scripts used in ACF Blocks
  */
 
-// function my_acf_block_assets()
-// {
-// 	// Swiper CSS
-// 	wp_enqueue_style(
-// 		'swiper-css',
-// 		'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css',
-// 		array(),
-// 		'4.1.4'
-// 	);
+function my_acf_block_frontend_assets()
+{
+	// Splide CSS
+	wp_enqueue_style(
+		'splide-css',
+		'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css',
+		array(),
+		'4.1.4'
+	);
 
-// 	// Swiper JS
-// 	wp_enqueue_script(
-// 		'swiper-js',
-// 		'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js',
-// 		array(),
-// 		'4.1.4',
-// 		true
-// 	);
-// }
-// add_action('enqueue_block_assets', 'my_acf_block_assets');
+	// Splide JS
+	wp_enqueue_script(
+		'splide-js',
+		'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js',
+		array(),
+		'4.1.4',
+		true
+	);
+}
+add_action('wp_enqueue_scripts', 'my_acf_block_frontend_assets');

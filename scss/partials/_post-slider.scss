@@ -1,6 +1,7 @@
 .post-slider {
   width: 100%;
   max-width: 1360px;
+  padding:100px 0;
 
   .post__grid {
     display: flex;
@@ -9,27 +10,18 @@
 
   .post {
     margin-right: 20px;
-    max-width: 506px;
+    max-width: 350px;
   }
-
-  .post__img{
+  .post__img {
     width: 100%;
     height: auto;
     border-radius: 20px;
     margin-bottom: 20px;
   }
 
-  .post__title{
-    font-size: 32px;
-    font-style: normal;
-    margin:0 0 10px;
+  .post__title {
+    a {
+      text-decoration: none;
+    }
   }
-
-  .post__excerpt{
-    color: rgba(0, 0, 0, 0.60);
-    font-size: 24px;
-    line-height: 1.2;
-    margin: 0;
-  }
-  
 }

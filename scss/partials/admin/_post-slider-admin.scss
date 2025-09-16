@@ -1,0 +1,19 @@
+body.block-editor-page { //Only target the slider in the wp admin
+    .post-slider {
+        .post__grid {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 2rem;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            /* smooth scrolling on iOS */
+
+            .post {
+                flex: 0 0 auto;
+                /* do not shrink, width determined by content or explicit width */
+                width: 100%;
+                max-width: 350px;
+            }
+        }
+    }
+}

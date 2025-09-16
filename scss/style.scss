@@ -1,3 +1,4 @@
+
 /*!
  Theme Name: Boilerplate
  Theme URI: https://yourwebsite.com/
@@ -12,11 +13,13 @@
 */
 
 // Import partials
-// @import "variables";
+@use "defaults";
+@use "variables";
 // @import "header";
 // @import "footer";
 
 /* Your global styles can go here */
+@use 'partials/admin/post-slider-admin';
 @use 'partials/post-slider';
 
 
